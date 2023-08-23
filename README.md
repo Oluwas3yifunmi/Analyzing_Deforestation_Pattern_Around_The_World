@@ -10,11 +10,13 @@ The dataset provided shows the land area and forest area of each country from 19
 - Region; This shows the region in which each country is located
 - Year; This shows the land area and forest area for each country between 1990 and 2016
 - Forest area; This shows the forest area for each country in square kilometres
-- Land area; This shows the total area for each country in square miles
+- Total area; This shows the total area for each country in square miles
 ## QUESTIONS AND ANSWERS
 ### TOTAL NUMBER OF COUNTRIES INVOLVED IN DEFORESTATION
 ![](1_number_of_countries.png)
-Across the globe, we have a total of 218 countries involved in deforestation. The dataset contained multiple instances of each country, so i used the **DISTINCT** function to count only one occurrence of each country from the land area table.
-### INCOME GROUP OF COUNTRIES WITH LAND AREA RANGING FROM 75,000 TO 150,000
+Across the globe, we have a total of 218 countries involved in deforestation. The dataset contained multiple instances of each country, so I used the **DISTINCT** function to count only one occurrence of each country from the land area table.
+### INCOME GROUP OF COUNTRIES WITH TOTAL AREA RANGING FROM 75,000 TO 150,000
 ![](2_income_group.png)
-We want to examine if the income group of countries ranging from 75,000 to 150,000 would be a factor as to why they would be involved in deforestation to cr
+We want to examine if the income group of countries with a total area ranging from 75,000 to 150,000 would be a factor as to why they would be involved in deforestation. From our observation, of all the countries with total area ranging from 75,000 to 150,000, **Zimbabwe** was the country with the largest land area falling under the **Low-Income** group, and from further observations, we can see that countries from the **Sub-Saharan Africa** within this total area range fall within the **Low-Income** and **Lower-Middle-Income** group. This insight tells us that within the **Sub-Saharan** we have more poor countries that would clear trees to make way for urbanization or production of agricultural produce to improve their country's economies.
+### 
+![](3_countries_with_forest_area.png)
